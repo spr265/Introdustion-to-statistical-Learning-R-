@@ -1,1 +1,191 @@
 
+# Introduction To Statistical Learning
+
+**Tools Used:** R i386 3.4.1
+
+## Modela Anlyzed:
+
+Linear Regression, Logistic Regresssion, Linear Discriminant Analysis(LDA), Quadratic Discriminant Analysis(QDA),K- Nearest Neighbours (KNN), Support Vector Machine(SVM),Time Series.
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  Model
+
+  
+  
+  Response
+
+  
+  
+  Predictors
+
+  
+  
+  Condition
+
+  
+  
+  Multi Class
+
+  
+ 
+ 
+  
+  Logistic Regression
+
+  
+  
+  Qualitative
+
+  
+  
+  Qualitative or Quantitative
+
+  
+  
+  No assumption on distribution of
+  predictors. Maximum Likelihood approach is used
+
+  
+  
+  Yes
+
+  
+ 
+ 
+  
+  Linear Regression
+
+  
+  
+  Quantitative
+
+  
+  
+  Qualitative or Quantitative
+
+  
+  
+   Least square approach.
+
+  
+  
+   
+
+  
+ 
+ 
+  
+  Naïve Bayes
+
+  
+  
+  Qualitative
+
+  
+  
+  Qualitative
+
+  
+  
+  Features are conditionally independent
+  given the class.
+
+  For quantitative predictors, transform
+  the data to categories (Break Points). 
+
+  Because of independent predictor it may
+  be strong. Zero frequency is solved by smoothing technique.
+
+  
+  
+  Yes
+
+  
+ 
+ 
+  
+  LDA
+
+  
+  
+  Qualitative
+
+  Categorical
+
+  
+  
+  Quantitative
+
+  
+  
+  The observations are a random sample.
+
+  Each predictor variable is normally distributed.
+
+  Every class has the same variance/ covariance. 
+
+   
+
+  
+  
+   Yes
+
+  
+ 
+ 
+  
+  QDA
+
+  
+  
+  Qualitative
+
+  
+  
+  Quantitative
+
+  
+  
+  Every class has the separate variance/ covariance.
+
+  
+  
+   
+
+  
+ 
+ 
+  
+  KNN
+
+  
+  
+  Qualitative
+
+  
+  
+  Quantitative
+
+  
+  
+  Using both
+  training and test data
+  together in analysis
+
+  The distance function may matter.
+
+   
+
+  
+  
+  Yes
+
+  
+ 
